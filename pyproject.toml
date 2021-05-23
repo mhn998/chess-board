@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "test"
+version = "0.1.0"
+description = ""
+authors = ["Muhannad <Muhannadalmughrabi233@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+matplotlib = "^3.4.1"
+jupyterlab = "^3.0.14"
+numpy = "^1.20.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.3"
+black = "^21.4b2"
+flake8 = "^3.9.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
